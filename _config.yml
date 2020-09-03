@@ -16,10 +16,10 @@
 title: Alain's Tech Blog
 name: Alain's Tech Blog
 description: 
-  This is a blog of someone passionate about technology who wants to share some of the things he knows
-  about Application Development, Integration, Cloud, Big Data and Digital Transformation
+  Blog de divulgação científica organizado pelo Laboratório de Biologia do Reconhecer,
+  localizado na UENF em Campos dos Goytacazes/RJ
 baseurl: "" # the subpath of your site, e.g. /blog
-github_username:  alainpham
+github_username:  lbruenf
 
 # jekyll-paginate configuration
 paginate: 10
@@ -38,7 +38,7 @@ exclude: [vendor]
 include: ["_pages"]
 permalink: /posts/:title/
 excerpt_separator: <!--more-->
-author: http://www.linkedin.com/in/alainpham
+author: LBR/UENF
 
 host: 0.0.0.0
 
