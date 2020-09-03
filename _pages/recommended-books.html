@@ -1,0 +1,28 @@
+---
+layout: default
+title: Bibliografia
+permalink: /books/
+---
+
+<p>
+Livros recomendados:
+</p>
+
+<div class="row">
+
+
+{% for book in site.pages.booklist -%}
+  <div class="col-md-4">
+    <div class="thumbnail">
+			<img
+				alt={{ book.title }}
+				src="/assets/images/books/{{ book.image }}" class="img-responsive">
+      <div class="caption">
+				<strong>{{ book.title }}</strong> <br>
+				{{ book.message }}
+      </div>
+    </div>
+  </div>
+  {% endfor -%}
+
+</div>

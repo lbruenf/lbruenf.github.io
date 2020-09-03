@@ -1,0 +1,16 @@
+---
+layout: default
+title: Equipe do Laboratório
+permalink: /members/
+---
+
+
+<div class="members">
+ {% for member in site.data.members -%}
+ <div class="member">
+     <img src='/assets/images/members/{{ member.foto }}' width="100px" height="100px">
+     <a href="http://www.lattes.cnpq.br/{{ member.lattes }}">{{ member.name }}</a>
+ </div>
+
+ {% endfor -%}
+</div>
