@@ -89,7 +89,7 @@ h3:before {
 	background-color: black;
 	border-color: #12421f;
 	text-transform: uppercase;
-	font-size: 1.3em;
+	font-size: 1.7em;
 }
 
 .navbar-default .navbar-brand {
@@ -119,7 +119,8 @@ h3:before {
 }
 
 .navbar-default .navbar-nav>li>.dropdown-menu>li>a {
-	color: #ffffff;
+	  color: #ffffff;
+    font-size: 1.5em;
 }
 
 .navbar-default .navbar-nav>li>.dropdown-menu>li>a:hover,
