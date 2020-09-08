@@ -48,7 +48,6 @@ h3:before {
 }
 
 .members {
-
     column-count: 3;
 }
 .footer {
@@ -64,8 +63,6 @@ h3:before {
 }
 
 .footer-links {
-	margin: 0 0 0 0em;
-	padding: 0;
 	float: right;
 	text-align: right;
 }
@@ -79,6 +76,10 @@ h3:before {
     height: 70%;
     filter: invert(1);
 
+}
+
+.footer-otherside {
+    float: right;
 }
 
 .top-image {
