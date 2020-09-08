@@ -7,14 +7,14 @@ disqus:
 google-ID: 'UA-177199837-1'
 
 menu: 
-  - name: Projetos
+  - name: Pesquisa
     submenu:
       - name: Hanseníase
         link: /projects/hansen
       - name: Toxoplasmose
         link: /projects/toxoplasma
-      - name: Ensino a Distância
-        link: /projects/ead
+  - name: Ensino a Distância
+    link: /ead
   - name: Blog
     link: /
   - name: Tags
