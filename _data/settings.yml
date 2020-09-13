@@ -6,7 +6,7 @@ disqus:
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: 'UA-177199837-1'
 
-menu: 
+menu:
   - name: Pesquisa
     submenu:
       - name: Hanseníase
@@ -17,7 +17,7 @@ menu:
     link: /ead
   - name: Blog
     link: /
-  - name: Tags
+  - name: "#Tags"
     link: /tags
   - name: Sobre
     link: /about
@@ -34,4 +34,3 @@ menu:
   #     - name: Twitter
   #       icon: twitter
   #       link: https://twitter.com/koint
-    

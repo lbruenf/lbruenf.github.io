@@ -26,12 +26,11 @@
 
 	{{ content }}
 
+	{% assign ctags = site.posts | map: "tags" -%}
+	{% assign related = page.tags -%}
+	{% if related and page.id %}
 
-	{% if page.id %}
-	<p>Originally published {{ page.published | date: '%B %d, %Y' }}
-    <br> Latest update {{ page.date | date: '%B %d, %Y' }}</p>
-
-    <p><strong>Related posts :</strong></p>
+    <p><strong>Posts relacionados:</strong></p>
         <ul>
 	    {% for allpost in site.posts %}
 			  {% for tag in page.tags %}
@@ -46,6 +45,7 @@
 			  {% endfor %}
 		{% endfor %}
 		</ul>
+
 	{% endif %}
 
 	{% include disqus.html %}

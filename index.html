@@ -11,23 +11,23 @@ comments: true
 
 
 <div class="list-group">
-	{% for post in paginator.posts %} 
+	{% for post in paginator.posts %}
 	<div class="list-group-item">
 	<a href="{{ post.url }}">
 		<h4 class="list-group-item-heading">{{ post.title }}</h4>
 		<h6 class="list-group-item-heading">{{ post.published | date: '%B %d,
-			%Y' }} | (Last Update : {{ post.date | date: '%B %d, %Y' }})</h6></a>
+			%Y' }} | (Atualizado em: {{ post.date | date: '%B %d, %Y' }})</h6></a>
 		{% for tag in post.tags %}
 		<a class="label label-default" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
 		{% endfor %}
 		{% if post.noimage %}
-		{% else %}		
+		{% else %}
 		<img
 			alt="{{ post.title }}"
 			src="/assets/images/{{post.id}}/top.jpg" class="img-responsive">
 		{% endif %}
 		<p>{{ post.excerpt | strip_html}}</p>
-		<a href="{{ post.url }}">Read more...</a>
+		<a href="{{ post.url }}">Ler mais...</a>
 
 	</div>
 	{% endfor %}
@@ -35,4 +35,3 @@ comments: true
 
 <!-- Pagination links -->
 {% include paginator.html -%}
-	  

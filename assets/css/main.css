@@ -8,7 +8,7 @@ body {
 	margin-bottom: 8em;
 	padding-top: 4.5em;
 	counter-reset: h1counter;
-	
+
 }
 
 h1 {
@@ -49,6 +49,14 @@ h3:before {
 
 .members {
     column-count: 3;
+}
+
+.members a:hover {
+	font-weight: bold;
+
+}
+.members a:active {
+	color: #232323;
 }
 .footer {
 	position: absolute;

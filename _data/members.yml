@@ -1,5 +1,18 @@
-- name: Gabriel Araujo
-  foto: cientista.png
+- nome: Gabriel Araujo
   lattes: 5432914338243391
+  course: Mestrando
 
+- course: Doutorando
+  #foto: rebeka.jpg
+  lattes: 7019355651582809
+  nome: Rebeka Souza
 
+- course: Doutorando
+  #foto: luiza.jpg
+  lattes: 2853673446493637
+  nome: Luiza Gonçalves Ayres
+
+- course: Doutorando
+  #foto: leticia.jpg
+  lattes: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8150997A2
+  nome: Leticia Silva Nascimento

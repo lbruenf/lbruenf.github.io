@@ -6,11 +6,13 @@ permalink: /members/
 
 
 <div class="members">
- {% for member in site.data.members -%}
+{% assign members = site.data.members | sort: "nome" -%}
+ {% for member in members -%}
+ <a href="http://www.lattes.cnpq.br/{{ member.lattes }}">
  <div class="member">
-     <img src='/assets/images/members/{{ member.foto }}' width="100px" height="100px">
-     <a href="http://www.lattes.cnpq.br/{{ member.lattes }}">{{ member.name }}</a>
+     <img src='/assets/images/members/{{ member.foto | default: "cientista.png" }}' width="100px" height="100px">
+     {{ member.nome }}
  </div>
-
+</a>
  {% endfor -%}
 </div>
