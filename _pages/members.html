@@ -4,15 +4,27 @@ title: Equipe do Laboratório
 permalink: /members/
 ---
 
-
 <div class="members">
 {% assign members = site.data.members | sort: "nome" -%}
+
+
  {% for member in members -%}
+ {% assign photo = member.nome | split: " " | first | downcase %}
+ {% assign photopath = "/assets/images/members/" | append: photo | append: ".jpg" %}
+  {% capture img_exists %}{% file_exists {{ photopath }} %}{% endcapture %}
+ {% if img_exists == "true" %}
+ {% assign mphoto = photopath %}
+ {% else %}
+ {% assign mphoto = "/assets/images/members/cientista.png" %}
+ {% endif %}
+
  <a href="http://www.lattes.cnpq.br/{{ member.lattes }}">
  <div class="member">
-     <img src='/assets/images/members/{{ member.foto | default: "cientista.png" }}' width="100px" height="100px">
+     <img src='{{ mphoto }}' width="100px" height="100px">
      {{ member.nome }}
+
  </div>
 </a>
+
  {% endfor -%}
 </div>
