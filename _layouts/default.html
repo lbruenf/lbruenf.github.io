@@ -27,7 +27,19 @@
 
 	{% assign ctags = site.posts | map: "tags" -%}
 	{% assign related = page.tags -%}
-	{% if related and page.id %}
+	{% assign related_posts = '' | split: '' %}
+
+	{% for allpost in site.posts %}
+		{% for tag in page.tags %}
+		{% if allpost.tags contains tag and allpost.id != page.id %}
+		{% assign related_posts = related_posts | append: allpost.id -%}
+		{% break %}
+		{% endif %}
+
+{% endfor %}
+{% endfor %}
+	{% if 'PLACEHOLDER' == 'FIXME' and page.id %}
+	{{ related_posts | length }}
 
     <p><strong>Posts relacionados:</strong></p>
         <ul>
