@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-10-10T09:53:44-03:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Laboratório de Biologia do Reconhecer</title><subtitle>Blog de divulgação científica organizado pelo Laboratório de Biologia do Reconhecer, localizado na UENF em Campos dos Goytacazes/RJ</subtitle><author><name>LBR/UENF</name></author><entry><title type="html">Anticorpos monoclonais no tratamento de Donald Trump</title><link href="http://0.0.0.0:4000/posts/anticorpos-trump/" rel="alternate" type="text/html" title="Anticorpos monoclonais no tratamento de Donald Trump" /><published>2020-10-04T03:00:00-03:00</published><updated>2020-10-04T03:00:00-03:00</updated><id>http://0.0.0.0:4000/posts/anticorpos-trump</id><content type="html" xml:base="http://0.0.0.0:4000/posts/anticorpos-trump/">&lt;p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-10-13T00:12:15-03:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Laboratório de Biologia do Reconhecer</title><subtitle>Blog de divulgação científica organizado pelo Laboratório de Biologia do Reconhecer, localizado na UENF em Campos dos Goytacazes/RJ</subtitle><author><name>LBR/UENF</name></author><entry><title type="html">O hospedeiro definivo de Toxoplasma gondii</title><link href="http://0.0.0.0:4000/posts/hospedeiro-definitivo/" rel="alternate" type="text/html" title="O hospedeiro definivo de &lt;i&gt;Toxoplasma gondii&lt;/i&gt;" /><published>2020-10-11T03:00:00-03:00</published><updated>2020-10-11T03:00:00-03:00</updated><id>http://0.0.0.0:4000/posts/hospedeiro-definitivo</id><content type="html" xml:base="http://0.0.0.0:4000/posts/hospedeiro-definitivo/">&lt;p&gt;
+
+     A cultura mainstream reconhece o gato doméstico como um hospedeiro definitivo de &lt;i&gt;Toxoplasma gondii&lt;/i&gt;.
+ &lt;/p&gt;
+ &lt;p&gt;
+     Há décadas as mulheres grávidas são avisadas pelos médicos
+     dos riscos de se contrair a toxoplasmose durante a gravidez,
+     e são aconselhadas a evitar trocar a caixa de areia de seus gatos de estimação, sendo também
+     monitoradas através de imunoensaios.
+     &lt;i&gt;T. gondii&lt;/i&gt; é um protozoário que completa seu ciclo de vida
+     nos felinos, mais especificamente nas células epiteliais intestinais
+     desses animais.
+     Completar o ciclo de vida significa realizar a reprodução sexuada,
+     onde o protozoário é capaz de recombinar o seu material genético
+     consigo mesmo ou com outras variantes que por ventura co-infectam o mesmo hospedeiro, lançando oocistos infectantes e altamente resistentes no ambiente.
+ &lt;/p&gt;
+ &lt;p&gt;
+     O mecanismo responsável pela especificdade dos membros da família
+     Felidae como hospedeiros definitivos permaneceu misteriosa desde o descobrimento do protozoário, no início do século XIX.
+        Mais tarde foram descobertos outros parasitos pertencentes ao mesmo filo Apicomplexa, como &lt;i&gt;Hammondia hammondi&lt;/i&gt; que também possui os felinos como hospedeiros definitivos e o &lt;i&gt;Cyclospora caninum&lt;/i&gt;, que realiza a reprodução sexuada em cães.
+     Mas o mecanismo molecular que define a predileção por certo grupo
+     como hospedeiros definitivos ainda permanecia misterioso.
+ &lt;/p&gt;
+ &lt;p&gt;
+     Um &lt;a href=&quot;https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000364&quot;&gt;artigo&lt;/a&gt; publicado recentemente no periódico Plos Biology pode ter desvendado a característica das células intestinais dos felinos que é crucial a &lt;i&gt;T. gondii&lt;/i&gt;.
+     A presença de ácido linoléico (AL) foi
+     observada como fundamental numa das etapas
+     da reprodução sexuada de &lt;i&gt;T. gondii&lt;/i&gt; que ocorre após o 7º dia de infecção.
+     Equanto nos demais mamíferos a enzima delta-6-desnaturase degrada o AL
+     em diversos metabólitos que são utilizados para outras funções,
+     os felídeos possuem uma versão inativa do gene,
+     mantendo uma maior quantidade de AL nas células do epitélio intestinal.
+ &lt;/p&gt;
+
+ &lt;p&gt;
+     Os autores foram inclusive capazes de induzir a reprodução sexuada
+     do protozoário no intestino de ratos submetidos a um tratamento
+     por medicamento inibidor da enzima delta-6-desnaturase e suplementação
+     de ácido linoléico.
+
+ &lt;/p&gt;
+
+ &lt;p&gt;
+     A possibilidade de utilizar ratos como hospedeiros definitivos,
+     completando o ciclo de vida do protozoário dentro do laboratório
+     para obtenção de oocistos poderia poupar um grande número de
+     felinos que são utilizados para a criação de cepas
+     recombinantes que são fundamentais para certas
+     áreas da pesquisa na toxoplasmose. O
+     processo &lt;a href=&quot;https://www.nydailynews.com/news/national/ny-news-3000-cats-killed-federal-research-20180613-story.html&quot;&gt;envolve a morte dos gatos&lt;/a&gt;.
+
+
+ &lt;/p&gt;</content><author><name>Gabriel Araujo</name></author><category term="toxoplasmose" /><category term="felinos" /><category term="avanços científicos" /><summary type="html">A cultura mainstream reconhece o gato doméstico como um hospedeiro definitivo de Toxoplasma gondii. Há décadas as mulheres grávidas são avisadas pelos médicos dos riscos de se contrair a toxoplasmose durante a gravidez, e são aconselhadas a evitar trocar a caixa de areia de seus gatos de estimação, sendo também monitoradas através de imunoensaios. T. gondii é um protozoário que completa seu ciclo de vida nos felinos, mais especificamente nas células epiteliais intestinais desses animais. Completar o ciclo de vida significa realizar a reprodução sexuada, onde o protozoário é capaz de recombinar o seu material genético consigo mesmo ou com outras variantes que por ventura co-infectam o mesmo hospedeiro, lançando oocistos infectantes e altamente resistentes no ambiente. O mecanismo responsável pela especificdade dos membros da família Felidae como hospedeiros definitivos permaneceu misteriosa desde o descobrimento do protozoário, no início do século XIX. Mais tarde foram descobertos outros parasitos pertencentes ao mesmo filo Apicomplexa, como Hammondia hammondi que também possui os felinos como hospedeiros definitivos e o Cyclospora caninum, que realiza a reprodução sexuada em cães. Mas o mecanismo molecular que define a predileção por certo grupo como hospedeiros definitivos ainda permanecia misterioso. Um artigo publicado recentemente no periódico Plos Biology pode ter desvendado a característica das células intestinais dos felinos que é crucial a T. gondii. A presença de ácido linoléico (AL) foi observada como fundamental numa das etapas da reprodução sexuada de T. gondii que ocorre após o 7º dia de infecção. Equanto nos demais mamíferos a enzima delta-6-desnaturase degrada o AL em diversos metabólitos que são utilizados para outras funções, os felídeos possuem uma versão inativa do gene, mantendo uma maior quantidade de AL nas células do epitélio intestinal. Os autores foram inclusive capazes de induzir a reprodução sexuada do protozoário no intestino de ratos submetidos a um tratamento por medicamento inibidor da enzima delta-6-desnaturase e suplementação de ácido linoléico. A possibilidade de utilizar ratos como hospedeiros definitivos, completando o ciclo de vida do protozoário dentro do laboratório para obtenção de oocistos poderia poupar um grande número de felinos que são utilizados para a criação de cepas recombinantes que são fundamentais para certas áreas da pesquisa na toxoplasmose. O processo envolve a morte dos gatos.</summary></entry><entry><title type="html">Anticorpos monoclonais no tratamento de Donald Trump</title><link href="http://0.0.0.0:4000/posts/anticorpos-trump/" rel="alternate" type="text/html" title="Anticorpos monoclonais no tratamento de Donald Trump" /><published>2020-10-04T03:00:00-03:00</published><updated>2020-10-04T03:00:00-03:00</updated><id>http://0.0.0.0:4000/posts/anticorpos-trump</id><content type="html" xml:base="http://0.0.0.0:4000/posts/anticorpos-trump/">&lt;p&gt;
 Segundo notícias divulgadas no dia 02.10.2020, o presidente dos Estados Unidos, Donald Trump, foi diagnosticado pelo COVID-19 e no mesmo dia recebeu tratamento com anticorpos monoclonais neutralizantes (tratamento em fase experimental), em dose máxima única.
 &lt;/p&gt;
 
